@@ -3,15 +3,17 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
+import Podcasts from '../components/podcasts'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
+    <h1>Ranking</h1>
+    <p>Datos obtenidos de <a
+      href="https://www.ivoox.com/podcast-internet-tecnologia_sc_f445_1.html">
+        categoría "Tecnología" de iVoox
+      </a>
+    </p>
+    <Podcasts />
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
