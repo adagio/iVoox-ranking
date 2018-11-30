@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'iVoox "Tecnología" Ranking',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
