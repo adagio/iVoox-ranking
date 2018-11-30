@@ -22,8 +22,8 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Ranking of iVoox podcast in Tecnología category' },
+            { name: 'keywords', content: 'iVoox, tecnología, podcast' },
           ]}
         >
           <html lang="en" />
