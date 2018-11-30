@@ -35,7 +35,7 @@ const Podcasts = ({ children }) => (
                 <td>{index + 1}</td>
                 <td>{node.title}</td>
                 <td>{node.episodes}</td>
-                <td><a href="{node.url}">Enlace</a></td>
+                <td><a href={node.url}>Enlace</a></td>
             </tr>
           ))}
         </table>
